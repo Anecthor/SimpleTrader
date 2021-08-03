@@ -125,3 +125,7 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\SimpleTrader.WPF.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\SimpleTrader.WPF.pdb
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\SimpleTrader.WPF.genruntimeconfig.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\SellView.g.cs
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\SellView.baml
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\SearchSymbolResultPanel.g.cs
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\SearchSymbolResultPanel.baml

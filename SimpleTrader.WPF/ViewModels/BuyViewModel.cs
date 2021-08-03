@@ -9,98 +9,98 @@ using System.Windows.Input;
 
 namespace SimpleTrader.WPF.ViewModels
 {
-    public class BuyViewModel : ViewModelBase
+    public class BuyViewModel : ViewModelBase, ISearchSymbolViewModel
     {
-		private string _symbol;
-		public string Symbol
-		{
-			get
-			{
-				return _symbol;
-			}
-			set
-			{
-				_symbol = value;
-				OnPropertyChanged(nameof(Symbol));
-			}
-		}
-
-		private string _searchResultSymbol = string.Empty;
-		public string SearchResultSymbol
-		{
-			get
-			{
-				return _searchResultSymbol;
-			}
-			set
-			{
-				_searchResultSymbol = value;
-				OnPropertyChanged(nameof(SearchResultSymbol));
-			}
-		}
-
-		private double _stockPrice;
-		public double StockPrice
-		{
-			get
-			{
-				return _stockPrice;
-			}
-			set
-			{
-				_stockPrice = value;
-				OnPropertyChanged(nameof(StockPrice));
-				OnPropertyChanged(nameof(TotalPrice));
-			}
-		}
-
-		private int _sharesToBuy;
-		public int SharesToBuy
-		{
-			get
-			{
-				return _sharesToBuy;
-			}
-			set
-			{
-				_sharesToBuy = value;
-				OnPropertyChanged(nameof(SharesToBuy));
-				OnPropertyChanged(nameof(TotalPrice));
-			}
-		}
-
-		public double TotalPrice
-		{
-			get
-			{
-				return SharesToBuy * StockPrice;
-			}
-		}
-
-		public MessageViewModel ErrorMessageViewModel { get; }
-
-		public string ErrorMessage
+        private string _symbol;
+        public string Symbol
         {
-			set => ErrorMessageViewModel.Message = value;
+            get
+            {
+                return _symbol;
+            }
+            set
+            {
+                _symbol = value;
+                OnPropertyChanged(nameof(Symbol));
+            }
         }
 
-		public MessageViewModel StatusMessageViewModel { get; }
+        private string _searchResultSymbol = string.Empty;
+        public string SearchResultSymbol
+        {
+            get
+            {
+                return _searchResultSymbol;
+            }
+            set
+            {
+                _searchResultSymbol = value;
+                OnPropertyChanged(nameof(SearchResultSymbol));
+            }
+        }
 
-		public string StatusMessage
-		{
-			set => StatusMessageViewModel.Message = value;
-		}
+        private double _stockPrice;
+        public double StockPrice
+        {
+            get
+            {
+                return _stockPrice;
+            }
+            set
+            {
+                _stockPrice = value;
+                OnPropertyChanged(nameof(StockPrice));
+                OnPropertyChanged(nameof(TotalPrice));
+            }
+        }
 
-		public ICommand SearchSymbolCommand { get; set; }
-		public ICommand BuyStockCommand { get; set; }
+        private int _sharesToBuy;
+        public int SharesToBuy
+        {
+            get
+            {
+                return _sharesToBuy;
+            }
+            set
+            {
+                _sharesToBuy = value;
+                OnPropertyChanged(nameof(SharesToBuy));
+                OnPropertyChanged(nameof(TotalPrice));
+            }
+        }
 
-		public BuyViewModel(IStockPriceService stockPriceService, IBuyStockService buyStockService, IAccountStore accountStore)
-		{
-			ErrorMessageViewModel = new MessageViewModel();
-			StatusMessageViewModel = new MessageViewModel();
+        public double TotalPrice
+        {
+            get
+            {
+                return SharesToBuy * StockPrice;
+            }
+        }
 
-			SearchSymbolCommand = new SearchSymbolCommand(this, stockPriceService);
-			BuyStockCommand = new BuyStockCommand(this, buyStockService, accountStore);
-		}
-	}
+        public MessageViewModel ErrorMessageViewModel { get; }
+
+        public string ErrorMessage
+        {
+            set => ErrorMessageViewModel.Message = value;
+        }
+
+        public MessageViewModel StatusMessageViewModel { get; }
+
+        public string StatusMessage
+        {
+            set => StatusMessageViewModel.Message = value;
+        }
+
+        public ICommand SearchSymbolCommand { get; set; }
+        public ICommand BuyStockCommand { get; set; }
+
+        public BuyViewModel(IStockPriceService stockPriceService, IBuyStockService buyStockService, IAccountStore accountStore)
+        {
+            ErrorMessageViewModel = new MessageViewModel();
+            StatusMessageViewModel = new MessageViewModel();
+
+            SearchSymbolCommand = new SearchSymbolCommand(this, stockPriceService);
+            BuyStockCommand = new BuyStockCommand(this, buyStockService, accountStore);
+        }
+    }
 }

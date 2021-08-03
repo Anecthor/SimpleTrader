@@ -5,10 +5,12 @@ FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Contr
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Controls\MajorIndexCard.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Controls\MajorIndexListing.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Controls\NavigationBar.xaml;;
+FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Controls\SearchSymbolResultPanel.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\MainWindow.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Views\BuyView.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Views\HomeView.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Views\LoginView.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Views\PortfolioView.xaml;;
 FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Views\RegisterView.xaml;;
+FC:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\Views\SellView.xaml;;
 

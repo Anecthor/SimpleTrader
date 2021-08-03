@@ -18,13 +18,7 @@ using SimpleTrader.WPF.State.Navigators;
 using SimpleTrader.WPF.ViewModels;
 using SimpleTrader.WPF.ViewModels.Factories;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Navigation;
 
 namespace SimpleTrader.WPF
 {
@@ -50,8 +44,8 @@ namespace SimpleTrader.WPF
                 })
                 .ConfigureServices((context, services) =>
                 {
-                    string apiKey = context.Configuration.GetValue<string>("FINANCE_API_KEY");
-                    services.AddSingleton<FinancialModelingPrepHttpClientFactory>(new FinancialModelingPrepHttpClientFactory(apiKey));
+                    string apiKey = context.Configuration.GetValue<string>("900c737b83fe09728945a6c52c1c9197");
+                    services.AddSingleton<FinancialModelingPrepHttpClientFactory>(new FinancialModelingPrepHttpClientFactory());
 
                     string connectionString = context.Configuration.GetConnectionString("sqlite");
                     Action<DbContextOptionsBuilder> configureDbContext = o => o.UseSqlite(connectionString);
@@ -69,6 +63,7 @@ namespace SimpleTrader.WPF
 
                     services.AddSingleton<ISimpleTraderViewModelFactory, SimpleTraderViewModelFactory>();
                     services.AddSingleton<BuyViewModel>();
+                    services.AddSingleton<SellViewModel>();
                     services.AddSingleton<PortfolioViewModel>();
                     services.AddSingleton<AssetSummaryViewModel>();
                     services.AddSingleton<HomeViewModel>(services => new HomeViewModel(
@@ -84,6 +79,10 @@ namespace SimpleTrader.WPF
                     services.AddSingleton<CreateViewModel<BuyViewModel>>(services =>
                     {
                         return () => services.GetRequiredService<BuyViewModel>();
+                    });
+                    services.AddSingleton<CreateViewModel<SellViewModel>>(services =>
+                    {
+                        return () => services.GetRequiredService<SellViewModel>();
                     });
 
                     services.AddSingleton<CreateViewModel<PortfolioViewModel>>(services =>
