@@ -1,0 +1,15 @@
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.deps.json
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.runtimeconfig.json
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.runtimeconfig.dev.json
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.Domain.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\bin\Debug\netcoreapp3.0\SimpleTrader.Domain.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.csproj.AssemblyReference.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.AssemblyInfo.cs
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.csproj.CopyComplete
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.EntityFramework\obj\Debug\netcoreapp3.0\SimpleTrader.EntityFramework.genruntimeconfig.cache

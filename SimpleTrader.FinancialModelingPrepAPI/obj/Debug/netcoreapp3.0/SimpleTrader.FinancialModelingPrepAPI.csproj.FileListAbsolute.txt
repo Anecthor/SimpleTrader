@@ -1,0 +1,12 @@
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.deps.json
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\netcoreapp3.0\SimpleTrader.Domain.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\netcoreapp3.0\SimpleTrader.Domain.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.csproj.AssemblyReference.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.AssemblyInfoInputs.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.AssemblyInfo.cs
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.csproj.CoreCompileInputs.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.csproj.CopyComplete
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\netcoreapp3.0\SimpleTrader.FinancialModelingPrepAPI.pdb
