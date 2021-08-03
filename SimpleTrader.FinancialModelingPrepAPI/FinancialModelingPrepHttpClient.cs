@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 namespace SimpleTrader.FinancialModelingPrepAPI
 {
-    public class FinancialModelingPrepHttpClient : HttpClient
+    public class FinancialModelingPrepHttpClient
     {
-        public FinancialModelingPrepHttpClient()
+        private readonly HttpClient _client;
+        public FinancialModelingPrepHttpClient(HttpClient client)
         {
-            this.BaseAddress = new Uri("https://financialmodelingprep.com/api/v3/");
-
+            _client = client;
         }
 
         public async Task<T> GetAsync<T>(string uri)
         {
-            HttpResponseMessage response = await GetAsync(uri);
+            HttpResponseMessage response = await _client.GetAsync(uri);
             string jsonResponse = await response.Content.ReadAsStringAsync();
 
             T result = JsonConvert.DeserializeObject<T>(jsonResponse);

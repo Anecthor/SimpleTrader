@@ -15,7 +15,11 @@ namespace SimpleTrader.WPF.HostBuilders
             host.ConfigureServices((context, services) =>
             {
                 string apiKey = context.Configuration.GetValue<string>("900c737b83fe09728945a6c52c1c9197");
-                services.AddSingleton(new FinancialModelingPrepHttpClientFactory());
+                services.AddHttpClient<FinancialModelingPrepHttpClient>(client =>
+                {
+                    client.BaseAddress = new Uri("https://financialmodelingprep.com/api/v3/");
+                });
+
             });
 
             return host;

@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "SimpleTrader.Domain.Tests/1.0.0": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": "16.8.3",
-          "Moq": "4.15.2",
+          "Microsoft.NET.Test.Sdk": "16.7.0",
+          "Moq": "4.14.5",
           "NUnit3TestAdapter": "3.17.0",
           "SimpleTrader.Domain": "1.0.0",
           "NUnit": "3.12.0"
@@ -46,11 +46,11 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/16.8.3": {
+      "Microsoft.CodeCoverage/16.7.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "16.0.30411.27"
+            "fileVersion": "16.0.30118.154"
           }
         }
       },
@@ -92,19 +92,17 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/16.8.3": {
+      "Microsoft.NET.Test.Sdk/16.7.0": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "16.8.3",
-          "Microsoft.TestPlatform.TestHost": "16.8.3"
+          "Microsoft.CodeCoverage": "16.7.0",
+          "Microsoft.TestPlatform.TestHost": "16.7.0"
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.TestPlatform.ObjectModel/16.8.3": {
+      "Microsoft.TestPlatform.ObjectModel/16.7.0": {
         "dependencies": {
-          "NuGet.Frameworks": "5.0.0",
-          "System.Reflection.Metadata": "1.6.0",
-          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+          "NuGet.Frameworks": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.TestPlatform.CoreUtilities.dll": {
@@ -201,9 +199,9 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/16.8.3": {
+      "Microsoft.TestPlatform.TestHost/16.7.0": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "16.8.3",
+          "Microsoft.TestPlatform.ObjectModel": "16.7.0",
           "Newtonsoft.Json": "9.0.1"
         },
         "runtime": {
@@ -367,15 +365,15 @@
           "System.Runtime.InteropServices": "4.3.0"
         }
       },
-      "Moq/4.15.2": {
+      "Moq/4.14.5": {
         "dependencies": {
           "Castle.Core": "4.4.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "System.Threading.Tasks.Extensions": "4.5.1"
         },
         "runtime": {
           "lib/netstandard2.0/Moq.dll": {
-            "assemblyVersion": "4.15.0.0",
-            "fileVersion": "4.15.2.0"
+            "assemblyVersion": "4.14.0.0",
+            "fileVersion": "4.14.5.0"
           }
         }
       },
@@ -719,7 +717,6 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.Metadata/1.6.0": {},
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -822,7 +819,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "System.Threading.Tasks.Extensions/4.5.1": {},
       "System.Threading.Thread/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -850,7 +847,7 @@
           "System.Text.Encoding.Extensions": "4.3.0",
           "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "System.Threading.Tasks.Extensions": "4.5.1"
         }
       },
       "System.Xml.XDocument/4.0.11": {
@@ -946,12 +943,12 @@
       "path": "microsoft.aspnet.identity.core/2.2.3",
       "hashPath": "microsoft.aspnet.identity.core.2.2.3.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/16.8.3": {
+    "Microsoft.CodeCoverage/16.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pFZAEvmIEkEIKl6WD1wCZ2qkc3f6PLdc2kAjCsUJfaMxVtgq3qxcQd4eZq+ZMt9eSX12VfxtFav2vPy1yiu8bw==",
-      "path": "microsoft.codecoverage/16.8.3",
-      "hashPath": "microsoft.codecoverage.16.8.3.nupkg.sha512"
+      "sha512": "sha512-przIisHDudyAtmh0hx8GCW8lOlJ7Zi0OX8LVrLlyFvaIPl6shGVhcPFjwAtY8cuSEpjc/Rpu9+BuJcphcXpyrA==",
+      "path": "microsoft.codecoverage/16.7.0",
+      "hashPath": "microsoft.codecoverage.16.7.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
@@ -967,12 +964,12 @@
       "path": "microsoft.dotnet.internalabstractions/1.0.0",
       "hashPath": "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/16.8.3": {
+    "Microsoft.NET.Test.Sdk/16.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E2hDEEHIUmDpGm0LIjVenWhXWWd5lWylzuujz0iPwwxPYUA2Ua6jrxfMNdoKombDSk9hpDDA0M3xnFz6TLh/KQ==",
-      "path": "microsoft.net.test.sdk/16.8.3",
-      "hashPath": "microsoft.net.test.sdk.16.8.3.nupkg.sha512"
+      "sha512": "sha512-sF0iQqII3WEOdcDwM+bNog2zrRM48MHtKP3T3scfZmlh5IvFIBRfS0kGH9AGOMpTqmpkTYuMkEUkSaz94aWYkA==",
+      "path": "microsoft.net.test.sdk/16.7.0",
+      "hashPath": "microsoft.net.test.sdk.16.7.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -988,19 +985,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/16.8.3": {
+    "Microsoft.TestPlatform.ObjectModel/16.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dqHiRggyAbkjQO9926SzM11Pn0nKjH1wwM6ee3E9//y1WZsUgTSVCMS14qvlQlk9iUZJyj+iz3/1zplE4Ll+hw==",
-      "path": "microsoft.testplatform.objectmodel/16.8.3",
-      "hashPath": "microsoft.testplatform.objectmodel.16.8.3.nupkg.sha512"
+      "sha512": "sha512-1/49rMeZXCdlAd0bCBcL6zicQm+lCNOW5N0d7DdNUdtFASCWTQ2u8MauoFT3zwYsZDcC/3q6zLnt723EGeQwZg==",
+      "path": "microsoft.testplatform.objectmodel/16.7.0",
+      "hashPath": "microsoft.testplatform.objectmodel.16.7.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/16.8.3": {
+    "Microsoft.TestPlatform.TestHost/16.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lF3QPoq7NYs7Xr/j5a44jJvHakRQq5lKyjG9adGNqeN28JmhD2qEogzGOL4GVkofqX1FmmbyUali2jlSVval8A==",
-      "path": "microsoft.testplatform.testhost/16.8.3",
-      "hashPath": "microsoft.testplatform.testhost.16.8.3.nupkg.sha512"
+      "sha512": "sha512-5yWCRl3oI6Hj9ikgthc/QoyvwUD7CbWnZZjgm8jqZ4HZawAEDNpXLRjYkhWAtZ/sOfbC7lFSV1Pmk87FmNxuSA==",
+      "path": "microsoft.testplatform.testhost/16.7.0",
+      "hashPath": "microsoft.testplatform.testhost.16.7.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -1016,12 +1013,12 @@
       "path": "microsoft.win32.registry/4.3.0",
       "hashPath": "microsoft.win32.registry.4.3.0.nupkg.sha512"
     },
-    "Moq/4.15.2": {
+    "Moq/4.14.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wegOsLAWslb4Qm/ER1hl7pd9M5fiolsnSVEZuNZgVl8iVGm/PRHXrLY/2YCnFmNHnMiX3X/+em404mGZi2ofQw==",
-      "path": "moq/4.15.2",
-      "hashPath": "moq.4.15.2.nupkg.sha512"
+      "sha512": "sha512-g/TLN+z6Fjd1E3DAUDbBI3nZcNDUXGKGEmImYqJdZ9TzvjME9KkE4BfV4vsKSXm3Of/C0y+rQKW3/5QSCeTUPA==",
+      "path": "moq/4.14.5",
+      "hashPath": "moq.4.14.5.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -1247,13 +1244,6 @@
       "path": "system.reflection.extensions/4.3.0",
       "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.Metadata/1.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
-      "path": "system.reflection.metadata/1.6.0",
-      "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
-    },
     "System.Reflection.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1352,12 +1342,12 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "System.Threading.Tasks.Extensions/4.5.4": {
+    "System.Threading.Tasks.Extensions/4.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
-      "path": "system.threading.tasks.extensions/4.5.4",
-      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+      "sha512": "sha512-WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
+      "path": "system.threading.tasks.extensions/4.5.1",
+      "hashPath": "system.threading.tasks.extensions.4.5.1.nupkg.sha512"
     },
     "System.Threading.Thread/4.3.0": {
       "type": "package",

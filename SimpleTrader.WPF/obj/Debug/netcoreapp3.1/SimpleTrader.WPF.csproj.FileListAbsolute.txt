@@ -129,3 +129,4 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\SellView.baml
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\SearchSymbolResultPanel.g.cs
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\SearchSymbolResultPanel.baml
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll

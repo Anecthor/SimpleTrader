@@ -16,16 +16,22 @@ namespace SimpleTrader.FinancialModelingPrepAPI.Services
         private const string DowJonesEndPoint = ".DJI";
         private const string NasdaqEndPoint = ".IXIC";
         private const string SandPEndPoint = ".INX";
+        private readonly FinancialModelingPrepHttpClient _client;
+
+        public MajorIndexService(FinancialModelingPrepHttpClient client)
+        {
+            _client = client;
+        }
+
         public async Task<MajorIndex> GetMajorIndex(MajorIndexType indexType)
         {
-            using (FinancialModelingPrepHttpClient client = new FinancialModelingPrepHttpClient())
-            {
-                string uri = $"{BaseUri}{GetEndPoint(indexType)}?apikey={ApiKey}";
 
-                MajorIndex majorIndex = await client.GetAsync<MajorIndex>(uri);
-                majorIndex.Type = indexType;
-                return majorIndex;
-            }
+            string uri = $"{BaseUri}{GetEndPoint(indexType)}?apikey={ApiKey}";
+
+            MajorIndex majorIndex = await _client.GetAsync<MajorIndex>(uri);
+            majorIndex.Type = indexType;
+            return majorIndex;
+
         }
 
         private string GetEndPoint(MajorIndexType indexType)

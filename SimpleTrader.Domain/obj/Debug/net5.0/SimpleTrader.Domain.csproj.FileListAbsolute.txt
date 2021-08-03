@@ -10,3 +10,15 @@ C:\Users\chris\development\training\SimpleTrader\SimpleTrader\SimpleTrader.Domai
 C:\Users\chris\development\training\SimpleTrader\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.dll
 C:\Users\chris\development\training\SimpleTrader\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\ref\SimpleTrader.Domain.dll
 C:\Users\chris\development\training\SimpleTrader\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\bin\Debug\net5.0\SimpleTrader.Domain.deps.json
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\bin\Debug\net5.0\SimpleTrader.Domain.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\bin\Debug\net5.0\ref\SimpleTrader.Domain.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\bin\Debug\net5.0\SimpleTrader.Domain.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.csproj.AssemblyReference.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.AssemblyInfoInputs.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.AssemblyInfo.cs
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.csproj.CoreCompileInputs.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\ref\SimpleTrader.Domain.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.pdb
