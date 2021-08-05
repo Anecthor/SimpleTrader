@@ -42,5 +42,10 @@ namespace SimpleTrader.WPF.ViewModels
         {
             OnPropertyChanged(nameof(CurrentViewModel));
         }
+
+        public override void Dispose()
+        {
+
+        }
     }
 }

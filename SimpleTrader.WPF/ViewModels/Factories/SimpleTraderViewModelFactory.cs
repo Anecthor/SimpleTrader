@@ -41,7 +41,7 @@ namespace SimpleTrader.WPF.ViewModels.Factories
                 case ViewType.Sell:
                     return _createSellViewModel();
                 default:
-                    throw new ArgumentException("The ViewType does not have a ViewModel.", "viewType");
+                    throw new ArgumentException("The ViewType does not have a ViewModel.", nameof(viewType));
             }
         }
     }

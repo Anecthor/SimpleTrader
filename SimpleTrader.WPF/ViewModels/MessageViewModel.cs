@@ -22,5 +22,11 @@ namespace SimpleTrader.WPF.ViewModels
         }
 
         public bool HasMessage => !string.IsNullOrEmpty(Message);
+        public override void Dispose()
+        {
+
+        }
     }
+
+
 }

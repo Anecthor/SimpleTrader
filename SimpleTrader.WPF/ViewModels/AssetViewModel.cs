@@ -14,5 +14,10 @@ namespace SimpleTrader.WPF.ViewModels
             Symbol = symbol;
             Shares = shares;
         }
+
+        public override void Dispose()
+        {
+         
+        }
     }
 }

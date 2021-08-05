@@ -91,5 +91,10 @@ namespace SimpleTrader.WPF.ViewModels
                 }
             });
         }
+
+        public override void Dispose()
+        {
+
+        }
     }
 }

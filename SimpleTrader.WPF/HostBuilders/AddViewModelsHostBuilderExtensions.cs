@@ -17,12 +17,12 @@ namespace SimpleTrader.WPF.HostBuilders
         {
             host.ConfigureServices((context, services) =>
             {
-                services.AddSingleton<HomeViewModel>(CreateHomeViewModel);
-                services.AddSingleton<BuyViewModel>();
-                services.AddSingleton<SellViewModel>();
-                services.AddSingleton<PortfolioViewModel>();
-                services.AddSingleton<AssetSummaryViewModel>();
-                services.AddSingleton<MainViewModel>();
+                services.AddTransient<HomeViewModel>(CreateHomeViewModel);
+                services.AddTransient<BuyViewModel>();
+                services.AddTransient<SellViewModel>();
+                services.AddTransient<PortfolioViewModel>();
+                services.AddTransient<AssetSummaryViewModel>();
+                services.AddTransient<MainViewModel>();
 
                 services.AddSingleton<CreateViewModel<HomeViewModel>>(services => () => services.GetRequiredService<HomeViewModel>());
                 services.AddSingleton<CreateViewModel<PortfolioViewModel>>(services => () => services.GetRequiredService<PortfolioViewModel>());

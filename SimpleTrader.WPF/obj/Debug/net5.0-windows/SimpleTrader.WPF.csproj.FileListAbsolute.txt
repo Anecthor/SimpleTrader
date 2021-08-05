@@ -147,8 +147,6 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\ref\SimpleTrader.WPF.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.WPF.pdb
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Microsoft.AspNet.Identity.Core.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Microsoft.Bcl.HashCode.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Microsoft.Data.Sqlite.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
@@ -201,11 +199,6 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -218,8 +211,6 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.Domain.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.EntityFramework.dll
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.FinancialModelingPrepAPI.dll
@@ -267,3 +258,17 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.csproj.CoreCompileInputs.cache
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.csproj.CopyComplete
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.genruntimeconfig.cache
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll

@@ -16,5 +16,5 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\App.xa
 24640572990
 Controls\AssetListing.xaml;Controls\AssetSummary.xaml;Controls\MajorIndexCard.xaml;Controls\MajorIndexListing.xaml;Controls\NavigationBar.xaml;Controls\SearchSymbolResultPanel.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Views\BuyView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\PortfolioView.xaml;Views\RegisterView.xaml;Views\SellView.xaml;
 
-True
+False
 

@@ -10,21 +10,21 @@ namespace SimpleTrader.WPF.ViewModels
 {
     public class LoginViewModel : ViewModelBase
     {
-		private string _username = "SingletonSean";
-		public string Username
-		{
-			get
-			{
-				return _username;
-			}
-			set
-			{
-				_username = value;
-				OnPropertyChanged(nameof(Username));
-			}
-		}
+        private string _username = "voodoo";
+        public string Username
+        {
+            get
+            {
+                return _username;
+            }
+            set
+            {
+                _username = value;
+                OnPropertyChanged(nameof(Username));
+            }
+        }
 
-        private string _password;
+        private string _password = "123456";
         public string Password
         {
             get
@@ -40,20 +40,25 @@ namespace SimpleTrader.WPF.ViewModels
 
         public MessageViewModel ErrorMessageViewModel { get; }
 
-		public string ErrorMessage
-		{
-			set => ErrorMessageViewModel.Message = value;
-		}
+        public string ErrorMessage
+        {
+            set => ErrorMessageViewModel.Message = value;
+        }
 
-		public ICommand LoginCommand { get; }
-		public ICommand ViewRegisterCommand { get; }
+        public ICommand LoginCommand { get; }
+        public ICommand ViewRegisterCommand { get; }
 
-		public LoginViewModel(IAuthenticator authenticator, IRenavigator loginRenavigator, IRenavigator registerRenavigator)
-		{
-			ErrorMessageViewModel = new MessageViewModel();
+        public LoginViewModel(IAuthenticator authenticator, IRenavigator loginRenavigator, IRenavigator registerRenavigator)
+        {
+            ErrorMessageViewModel = new MessageViewModel();
 
-			LoginCommand = new LoginCommand(this, authenticator, loginRenavigator);
-			ViewRegisterCommand = new RenavigateCommand(registerRenavigator);
-		}
-	}
+            LoginCommand = new LoginCommand(this, authenticator, loginRenavigator);
+            ViewRegisterCommand = new RenavigateCommand(registerRenavigator);
+        }
+
+        public override void Dispose()
+        {
+            
+        }
+    }
 }
