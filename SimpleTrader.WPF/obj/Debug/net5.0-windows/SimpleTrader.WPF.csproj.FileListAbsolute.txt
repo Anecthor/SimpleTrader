@@ -272,3 +272,4 @@ C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\De
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
 C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\chris\development\training\SimpleTraderTraining\SimpleTrader.WPF\bin\Debug\net5.0-windows\LoadingSpinnerControl.dll

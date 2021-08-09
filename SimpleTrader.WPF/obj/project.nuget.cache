@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jWvMuY9CcDMBAEwb1zni8IKIwl5dp+Fg9Jv21BAs8FJ9az42rhzEQkHL1YlM+g0TRPFOXzLS9sFYHxZQbBSRNQ==",
+  "dgSpecHash": "6s96qa3Y7YUzLVzs6q+W2Keyx3aA9GpKJPgbi8z9hd56mVM1bGMT9GnsByi9E3LL5umJn4ExplTLBRSRHsUJkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\development\\training\\SimpleTraderTraining\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\loadingspinner.wpf\\1.0.0\\loadingspinner.wpf.1.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
