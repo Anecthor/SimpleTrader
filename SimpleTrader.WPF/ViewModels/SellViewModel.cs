@@ -32,6 +32,8 @@ namespace SimpleTrader.WPF.ViewModels
             {
                 _selectedAsset = value;
                 OnPropertyChanged(nameof(SelectedAsset));
+                OnPropertyChanged(nameof(Symbol));
+                OnPropertyChanged(nameof(CanSearchSymbol));
             }
         }
 
@@ -40,6 +42,8 @@ namespace SimpleTrader.WPF.ViewModels
 
         
         public string Symbol => SelectedAsset?.Symbol;
+
+        public bool CanSearchSymbol => string.IsNullOrEmpty(Symbol) == false;
 
         private string _searchResultSymbol = string.Empty;
         public string SearchResultSymbol

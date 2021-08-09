@@ -54,7 +54,7 @@ namespace SimpleTrader.WPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SimpleTrader.WPF;V1.0.0.0;component/views/buyview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SimpleTrader.WPF;component/views/buyview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\BuyView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

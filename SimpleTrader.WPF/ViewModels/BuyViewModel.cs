@@ -22,8 +22,11 @@ namespace SimpleTrader.WPF.ViewModels
             {
                 _symbol = value;
                 OnPropertyChanged(nameof(Symbol));
+                OnPropertyChanged(nameof(CanSearchSymbol));
             }
         }
+
+        public bool CanSearchSymbol => string.IsNullOrEmpty(Symbol) == false;
 
         private string _searchResultSymbol = string.Empty;
         public string SearchResultSymbol

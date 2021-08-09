@@ -53,7 +53,7 @@ namespace SimpleTrader.WPF.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SimpleTrader.WPF;V1.0.0.0;component/controls/assetsummary.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SimpleTrader.WPF;component/controls/assetsummary.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\AssetSummary.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
